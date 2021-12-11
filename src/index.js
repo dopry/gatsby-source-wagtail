@@ -1,8 +1,6 @@
-import React from 'react'
 import gql from 'graphql-tag'
 import traverse from 'traverse'
 import cloneDeep from 'lodash.clonedeep'
-import PropTypes from 'prop-types'
 export { withPreview, decodePreviewUrl } from './preview'
 
 const options = new Map()

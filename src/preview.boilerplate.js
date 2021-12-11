@@ -14,11 +14,7 @@ import {
 import { WebSocketLink } from 'apollo-link-ws'
 import { getMainDefinition } from 'apollo-utilities'
 import { createHttpLink } from 'apollo-link-http'
-import {
-    introspectSchema,
-    makeRemoteExecutableSchema,
-    mergeSchemas,
-} from 'graphql-tools'
+
 
 import { print } from 'graphql/language/printer'
 import { getQuery, getIsolatedQuery } from './index'

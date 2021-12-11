@@ -1,4 +1,8 @@
 node_modules
 /*.js
 .cache
-babel-plugin-remove-graphql-queries
+/fragmentTypes.json
+
+/example/fragmentTypes.json
+/gatsby-node/
+/gatsby-ssr/

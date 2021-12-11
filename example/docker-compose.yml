@@ -1,0 +1,6 @@
+services:
+  wagtail-grapple:
+    image: dopry/wagtail-grapple-example
+    # map to port 8080 so it doesn't conflict with gatsby's default port of 8000
+    ports: 
+      - 8080:8000
